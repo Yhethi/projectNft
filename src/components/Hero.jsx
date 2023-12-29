@@ -2,9 +2,9 @@ import React from "react";
 import logoHero from "../assets/hero/logoHero.png";
 import "../assets/css/Hero.css";
 import miniLogo from "../assets/hero/header_aspirity.svg";
-import facebook from "../assets/hero/facebook.png";
-import instagram from "../assets/hero/instagram.png";
-import twitter from "../assets/hero/twitter.png";
+import icon1 from "../assets/hero/twitter.png";
+import icon2 from "../assets/hero/telegram.png";
+import icon3 from "../assets/hero/discord.png";
 import { Notices } from "./Notices";
 
 export const Hero = () => {
@@ -13,25 +13,13 @@ export const Hero = () => {
       <div className="hero__center">
         <div className="hero__socials">
           <a href="#">
-            <img
-              className="hero__social hero__facebook"
-              src={facebook}
-              alt={facebook}
-            />
+            <img className="hero__social hero__icon1" src={icon1} alt={icon1} />
           </a>
           <a href="#">
-            <img
-              className="hero__social hero__instagram"
-              src={instagram}
-              alt={instagram}
-            />
+            <img className="hero__social hero__icon2" src={icon2} alt={icon2} />
           </a>
           <a href="#">
-            <img
-              className="hero__social hero__twitter"
-              src={twitter}
-              alt={twitter}
-            />
+            <img className="hero__social hero__icon3" src={icon3} alt={icon3} />
           </a>
         </div>
         <div className="hero__img">

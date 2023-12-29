@@ -59,30 +59,22 @@
   filter: drop-shadow(5px 5px 10px black);
 }
 
-.hero__facebook {
-  scale: 1.1;
+.hero__icon1 {
   animation-delay: 0s;
   animation: giro 10s linear infinite;
 }
 
-.hero__facebook:hover {
-  scale: 1.2;
-  transition-duration: 0.3s;
-  cursor: pointer;
-}
-
-.hero__instagram {
+.hero__icon2 {
   animation: giro 10s linear infinite;
   animation-delay: 3.3s;
 }
 
-.hero__twitter {
+.hero__icon3 {
   animation: giro 20s linear infinite;
   animation-delay: 6.6s;
 }
 
-.hero__instagram:hover,
-.hero__twitter:hover {
+.hero__social:hover {
   scale: 1.1;
   transition-duration: 0.3s;
   cursor: pointer;
