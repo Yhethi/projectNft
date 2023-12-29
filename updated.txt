@@ -1,3 +1,6 @@
+v1.043
+- Logos de redes sociales eliminados del hero
+
 v1.042
 - Añadido en el apartado de comunidad, Twitter, Telegram, Discord, Youtube
 
