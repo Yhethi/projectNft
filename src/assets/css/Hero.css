@@ -55,8 +55,9 @@
 }
 
 .hero__socials img {
-  width: 65px;
-  filter: drop-shadow(5px 5px 10px black);
+  transition-duration: 0.3s;
+  width: 55px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.233));
 }
 
 .hero__icon1 {
@@ -76,7 +77,6 @@
 
 .hero__social:hover {
   scale: 1.1;
-  transition-duration: 0.3s;
   cursor: pointer;
 }
 
