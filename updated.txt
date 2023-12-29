@@ -1,3 +1,6 @@
+v1.02
+- Banderas eliminadas
+
 v1.01
 - Cambio de logo
 - Banderas e idiomas en comunidad

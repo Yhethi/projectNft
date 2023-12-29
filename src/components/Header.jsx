@@ -2,7 +2,6 @@ import React from "react";
 // import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
-import Flag from 'react-flagkit';
 
 export const Header = () => {
   return (
@@ -168,10 +167,10 @@ export const Header = () => {
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <a class="dropdown-item" href="#">
-                <Flag country="ES" /> Español
+                Spanish
                 </a>
                 <a class="dropdown-item" href="#">
-                <Flag country="US" /> Ingles
+                English
                 </a>
               </div>
             </li>
