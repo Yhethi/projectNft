@@ -1,0 +1,74 @@
+body {
+  background: black;
+  overflow-x: hidden;
+}
+
+.body__wallpaper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../body/wallpaper.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.body__components {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.body__trianglesWall {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  animation: giro2 15s linear infinite;
+}
+
+.body__trianglesWall img {
+  filter: blur(10px) opacity(0.1);
+  width: 100vw;
+}
+
+@keyframes giro2 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(-4px, -14px);
+  }
+  50% {
+    transform: translate(-8px, 0px) rotate(3deg);
+  }
+  75% {
+    transform: translate(-4px, 4px);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f111;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #888888;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #5555553a;
+}
