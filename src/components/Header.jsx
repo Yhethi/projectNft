@@ -2,7 +2,7 @@ import React from "react";
 // import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
-import Flag from 'react-flagKit';
+import Flag from 'react-flagkit';
 
 export const Header = () => {
   return (
