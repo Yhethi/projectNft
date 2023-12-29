@@ -133,7 +133,7 @@ export const Header = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Network
+                Comunidad
                 <FaChevronDown className="dropIcon" />
               </a>
               <div

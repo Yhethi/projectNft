@@ -1,3 +1,6 @@
+v1.041
+- Cambio de Network a Comunidad en el header
+
 v1.04
 - Cambio meta tags del titulo e icono
 
