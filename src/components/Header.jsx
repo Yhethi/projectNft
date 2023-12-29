@@ -2,7 +2,7 @@ import React from "react";
 // import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
-import googleTr from '../assets/header/googleTr.png'
+import googleTr from "../assets/header/googleTr.png";
 
 export const Header = () => {
   return (
@@ -140,14 +140,17 @@ export const Header = () => {
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">
-                  Action
+                <a class="dropdown-item comunidad__item" href="#">
+                  Twitter
                 </a>
-                <a class="dropdown-item" href="#">
-                  Another action
+                <a class="dropdown-item comunidad__item" href="#">
+                  Telegram
                 </a>
-                <a class="dropdown-item" href="#">
-                  Something else here
+                <a class="dropdown-item comunidad__item" href="#">
+                  Discord
+                </a>
+                <a class="dropdown-item comunidad__item" href="#">
+                  Youtube
                 </a>
               </div>
             </li>
@@ -168,10 +171,10 @@ export const Header = () => {
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <a class="dropdown-item" href="#">
-                <p>Spanish</p>
+                  <p>Spanish</p>
                 </a>
                 <a class="dropdown-item" href="#">
-                <p>English</p>
+                  <p>English</p>
                 </a>
               </div>
             </li>

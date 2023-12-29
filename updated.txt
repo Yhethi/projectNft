@@ -1,3 +1,6 @@
+v1.042
+- Añadido en el apartado de comunidad, Twitter, Telegram, Discord, Youtube
+
 v1.041
 - Cambio de Network a Comunidad en el header
 
