@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.logoFont{
+  font-family: 'Holtwood One SC', serif;
+  font-family: 'Kanit', sans-serif;
+}

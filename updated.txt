@@ -1,3 +1,8 @@
+v1.03
+- Logo font es general para usarlo en cualquier parte
+- Menu idiomas nuevo
+- Cambiado el logo antiguo por el nuevo en el enlace del Hero
+
 v1.02
 - Banderas eliminadas
 

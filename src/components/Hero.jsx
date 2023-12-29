@@ -27,7 +27,7 @@ export const Hero = () => {
         </div>
         <p>
           Modern Admin Template by <img src={miniLogo} alt={miniLogo} />
-          <a href="#">Aspirity</a>
+          <a className="LogoFont" href="#">HUMAN UNLEASH</a>
         </p>
         <div className="hero__title">
           <h1>

@@ -2,13 +2,14 @@ import React from "react";
 // import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
+import googleTr from '../assets/header/googleTr.png'
 
 export const Header = () => {
   return (
     <div className="header__global">
       <div className="logo">
         {/* <img src={logo} alt={logo} /> */}
-        <h1>HUMAN UNLEASH</h1>
+        <h1 className="logoFont">HUMAN UNLEASH</h1>
       </div>
       <nav class="navbar navbar-expand-lg navbar-dark header__menu">
         {/* <a class="navbar-brand" href="#">
@@ -159,7 +160,7 @@ export const Header = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Comunidad
+                <img className="googleTr" src={googleTr} alt={googleTr} />
                 <FaChevronDown className="dropIcon" />
               </a>
               <div
@@ -167,10 +168,10 @@ export const Header = () => {
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <a class="dropdown-item" href="#">
-                Spanish
+                <p>Spanish</p>
                 </a>
                 <a class="dropdown-item" href="#">
-                English
+                <p>English</p>
                 </a>
               </div>
             </li>
