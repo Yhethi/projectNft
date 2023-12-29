@@ -2,12 +2,14 @@ import React from "react";
 import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
+import Flag from 'react-flagkit';
 
 export const Header = () => {
   return (
     <div className="header__global">
       <div className="logo">
-        <img src={logo} alt={logo} />
+        {/* <img src={logo} alt={logo} /> */}
+        <h1>HUMAN UNLEASH</h1>
       </div>
       <nav class="navbar navbar-expand-lg navbar-dark header__menu">
         {/* <a class="navbar-brand" href="#">
@@ -50,7 +52,7 @@ export const Header = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Learn
+                About
                 <FaChevronDown className="dropIcon" />
               </a>
               <div
@@ -166,13 +168,10 @@ export const Header = () => {
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <a class="dropdown-item" href="#">
-                  Action
+                <Flag country="ES" /> Español
                 </a>
                 <a class="dropdown-item" href="#">
-                  Another action
-                </a>
-                <a class="dropdown-item" href="#">
-                  Something else here
+                <Flag country="US" /> Ingles
                 </a>
               </div>
             </li>

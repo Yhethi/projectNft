@@ -1,0 +1,7 @@
+v1.01
+- Cambio de logo
+- Banderas e idiomas en comunidad
+- Cambio de learn a about (Header)
+
+v1.00
+Base
