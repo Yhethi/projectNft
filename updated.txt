@@ -1,3 +1,6 @@
+v1.04
+- Cambio meta tags del titulo e icono
+
 v1.03
 - Logo font es general para usarlo en cualquier parte
 - Menu idiomas nuevo
