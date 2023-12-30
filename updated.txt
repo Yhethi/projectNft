@@ -1,3 +1,6 @@
+v1.054
+- Modal acutalizado
+
 v1.053
 - Modal actualizado
 

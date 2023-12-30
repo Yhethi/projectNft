@@ -20,7 +20,7 @@
   color: white;
   position: relative;
   overflow: hidden;
-  margin-top: 88px;
+  margin-top: 65px;
   margin-bottom: auto;
   max-height: 680px;
   animation: bounce 8s linear infinite;
@@ -88,8 +88,9 @@
   .modal__card {
     width: 90%;
     height: auto;
+    min-height: 300px;
     text-align: center;
-    margin-top: 88px;
+    margin-top: 65px;
     overflow-y: scroll;
     padding: 0px;
   }
