@@ -31,7 +31,7 @@ export const Hero = () => {
             for your project.
           </p> */}
         </div>
-        <Notices />
+        {/* <Notices /> */}
       </div>
     </div>
   );

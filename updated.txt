@@ -1,3 +1,7 @@
+v1.056
+- Fondo header deshabilitado
+- Compañias deshabilitadas
+
 v1.055
 - Eliminado el titulo sobre las compañias
 
