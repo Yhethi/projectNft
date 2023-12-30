@@ -89,12 +89,25 @@
     width: 90%;
     height: auto;
     text-align: center;
-    margin-top: 88px;
+    margin-top: 130px;
     overflow-y: scroll;
+    padding: 0px;
   }
   .modal__card__texto {
     font-size: 0.8rem;
     position: relative;
     z-index: 1;
+  }
+}
+
+@media (max-width: 531px) {
+  .modal__card__texto {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 489px) {
+  .modal__card__texto {
+    font-size: 0.6rem;
   }
 }

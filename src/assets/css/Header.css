@@ -87,6 +87,10 @@
   height: 40px !important;
 }
 
+.nav-link {
+  transition-duration: 0.3s !important;
+}
+
 .dropdown-menu:hover {
   background: rgb(29, 29, 29);
 }
@@ -101,6 +105,10 @@
 
 .comunidad__item {
   text-transform: uppercase;
+}
+
+.social__icons {
+  display: flex;
 }
 
 @media (max-width: 991px) {
@@ -140,5 +148,9 @@
   .dropdown-menu a:hover {
     background: rgba(36, 36, 36, 0.22);
     color: white;
+  }
+  .social__icons {
+    display: flex;
+    gap: 10px;
   }
 }

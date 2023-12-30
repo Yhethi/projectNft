@@ -1,3 +1,8 @@
+v1.052
+- Universo en el header deshabilitado
+- Modal manifiesto actualizado
+- Header mejorado
+
 v1.051
 - Header actualizado
 - Color del icono de sonido cambiado

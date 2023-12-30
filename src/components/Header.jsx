@@ -80,31 +80,33 @@ export const Header = () => {
                 Manifiesto
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <FaTiktok />
-              </a>
-            </li>{" "}
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <FaInstagram />
-              </a>
-            </li>{" "}
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <FaTwitter />
-              </a>
-            </li>{" "}
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <FaDiscord />
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <FaYoutube />
-              </a>
-            </li>
+            <div className="social__icons">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <FaTiktok />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <FaInstagram />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <FaTwitter />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <FaDiscord />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <FaYoutube />
+                </a>
+              </li>
+            </div>
             {/* <li className="nav-item dropdown">
               <a
                 className="nav-link"
@@ -143,7 +145,7 @@ export const Header = () => {
                 </a>
               </div>
             </li> */}
-            <li className="nav-item dropdown logoFont">
+            {/* <li className="nav-item dropdown logoFont">
               <a
                 className="nav-link"
                 href="#"
@@ -187,7 +189,7 @@ export const Header = () => {
                   Harmonia
                 </a>
               </div>
-            </li>
+            </li> */}
             {/* <li className="nav-item dropdown">
               <a
                 className="nav-link"
