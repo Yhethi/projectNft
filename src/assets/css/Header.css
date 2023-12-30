@@ -2,7 +2,8 @@
 
 .header__global {
   position: absolute;
-  background: rgba(0, 0, 0, 0.11);
+  /* background: rgba(0, 0, 0, 0.11); */
+  background: rgba(0, 0, 0, 0.808);
   width: 100vw;
   height: 88px;
   display: flex;

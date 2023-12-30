@@ -1,3 +1,6 @@
+v1.047
+- Fondo actualizado, fondo hero y header
+
 v1.046
 - Console Fixes
 - Modal Open FIxed
