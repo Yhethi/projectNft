@@ -1,3 +1,6 @@
+v1.053
+- Modal actualizado
+
 v1.052
 - Universo en el header deshabilitado
 - Modal manifiesto actualizado

@@ -22,7 +22,7 @@ export const ModalHome = ({ option, setLoader }) => {
           if (item.name === option) {
             return (
               <>
-                <span key={key} className="modal__card__texto logoFont">
+                <span key={key} className="modal__card__texto">
                   {item.texto}
                 </span>
               </>
