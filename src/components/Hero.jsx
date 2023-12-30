@@ -11,36 +11,25 @@ export const Hero = () => {
   return (
     <div className="hero__global">
       <div className="hero__center">
-        {/* <div className="hero__socials">
-          <a href="#">
-            <img className="hero__social hero__icon1" src={icon1} alt={icon1} />
-          </a>
-          <a href="#">
-            <img className="hero__social hero__icon2" src={icon2} alt={icon2} />
-          </a>
-          <a href="#">
-            <img className="hero__social hero__icon3" src={icon3} alt={icon3} />
-          </a>
-        </div> */}
         <div className="hero__img">
-          <img src={logoHero} alt={logoHero} />
+          {/* <img src={logoHero} alt={logoHero}/> */}
         </div>
-        <p>
+        {/* <p>
           Modern Admin Template by <img src={miniLogo} alt={miniLogo} />
           <a className="LogoFont" href="#">
             HUMAN UNLEASH
           </a>
-        </p>
+        </p> */}
         <div className="hero__title">
-          <h1>
+          {/* <h1>
             Front-end has never<br></br>been so easy
-          </h1>
+          </h1> */}
         </div>
         <div className="hero__description">
-          <p>
+          {/* <p>
             Use 200+ clean coded components and 50+<br></br>pre-designed pages
             for your project.
-          </p>
+          </p> */}
         </div>
         <Notices />
       </div>

@@ -2,10 +2,12 @@
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: end;
   text-align: center;
   margin-top: 150px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: rgba(0, 0, 0, 0.808);
+  height: 706.19px;
 }
 
 .hero__img img {

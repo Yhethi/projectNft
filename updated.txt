@@ -1,3 +1,7 @@
+v1.05
+- Audio añadido con boton animado
+- texto eliminado
+
 v1.049
 - Modal mobile actualizado
 

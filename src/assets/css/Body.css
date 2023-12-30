@@ -72,3 +72,40 @@ body {
 *::-webkit-scrollbar-thumb:hover {
   background: #5555553a;
 }
+
+.playButton {
+  width: 65px;
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+  z-index: 1;
+  cursor: pointer;
+  animation: soundButton 3s linear infinite;
+  filter: drop-shadow(0px 0px 5px black);
+  transition-duration: 0.3s;
+}
+
+@keyframes soundButton {
+  0% {
+    transform: translateY(3px);
+  }
+  25% {
+    transform: translateY(-9px) rotate(0deg);
+  }
+  40% {
+    transform: translateY(-6px) rotate(360deg);
+  }
+  60% {
+    transform: translateY(-3px) rotate(360deg);
+  }
+  75% {
+    transform: translateY(0px) rotate(360deg);
+  }
+  100% {
+    transform: translateY(3px) rotate(360deg);
+  }
+}
+
+.playButton:hover {
+  scale: 1.1;
+}
