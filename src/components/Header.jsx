@@ -13,11 +13,15 @@ export const Header = () => {
     const navbarCollapse = document.querySelector(".navbar-collapse");
     navbarCollapse.classList.remove("show");
     setOption(texto);
-    const modal__global = document.querySelector(".modal__global");
     setTimeout(() => {
-      modal__global.style.scale = "1";
+      const modal__global = document.querySelector(".modal__global");
+      if (modal__global !== null) {
+        modal__global.style.scale = "1";
+      }
       setTimeout(() => {
-        modal__global.style.background = "#00000033";
+        if (modal__global !== null) {
+          modal__global.style.background = "#00000033";
+        }
       }, 200);
     }, 100);
   };
@@ -32,9 +36,9 @@ export const Header = () => {
       <div className="logo">
         <h1 className="logoFont">HUMAN UNLEASH</h1>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-dark header__menu">
+      <nav className="navbar navbar-expand-lg navbar-dark header__menu">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavDropdown"
@@ -42,13 +46,13 @@ export const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link"
+                className="nav-link"
                 href="#"
                 id="navbarDropdownMenuLink"
                 data-toggle="dropdown"
@@ -59,11 +63,11 @@ export const Header = () => {
                 <FaChevronDown className="dropIcon" />
               </a>
               <div
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <a
-                  class="dropdown-item"
+                  className="dropdown-item"
                   href="#"
                   onClick={() => {
                     onHandleOption("manifiesto");
@@ -73,7 +77,7 @@ export const Header = () => {
                   MANIFIESTO
                 </a>
                 <a
-                  class="dropdown-item"
+                  className="dropdown-item"
                   href="#"
                   onClick={() => {
                     onHandleOption("quien");
@@ -84,9 +88,9 @@ export const Header = () => {
                 </a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link"
+                className="nav-link"
                 href="#"
                 id="navbarDropdownMenuLink"
                 data-toggle="dropdown"
@@ -97,41 +101,41 @@ export const Header = () => {
                 <FaChevronDown className="dropIcon" />
               </a>
               <div
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Aetheria
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Celestis
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Temporalis
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Spectra
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Etherium
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Arcanum
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Infinitum
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Obscura
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Harmonia
                 </a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link"
+                className="nav-link"
                 href="#"
                 id="navbarDropdownMenuLink"
                 data-toggle="dropdown"
@@ -142,26 +146,26 @@ export const Header = () => {
                 <FaChevronDown className="dropIcon" />
               </a>
               <div
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item comunidad__item" href="#">
+                <a className="dropdown-item comunidad__item" href="#">
                   Twitter
                 </a>
-                <a class="dropdown-item comunidad__item" href="#">
+                <a className="dropdown-item comunidad__item" href="#">
                   Telegram
                 </a>
-                <a class="dropdown-item comunidad__item" href="#">
+                <a className="dropdown-item comunidad__item" href="#">
                   Discord
                 </a>
-                <a class="dropdown-item comunidad__item" href="#">
+                <a className="dropdown-item comunidad__item" href="#">
                   Youtube
                 </a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link"
+                className="nav-link"
                 href="#"
                 id="navbarDropdownMenuLink"
                 data-toggle="dropdown"
@@ -172,13 +176,13 @@ export const Header = () => {
                 <FaChevronDown className="dropIcon" />
               </a>
               <div
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   <p>Spanish</p>
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   <p>English</p>
                 </a>
               </div>

@@ -62,11 +62,11 @@ export const Notices = () => {
         POWERING TOOLS AND INTEGRATIONS FROM COMPANIES ALL AROUND THE WORLD
       </p>
       <div className="notices__scrollable">
-        {imgs.map((img) => {
+        {imgs.map((img, key) => {
           return (
-            <>
+            <div key={key}>
               <Notice img={img.src} name={img.name} />
-            </>
+            </div>
           );
         })}
       </div>

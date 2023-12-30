@@ -18,11 +18,11 @@ export const ModalHome = ({ option, setLoader }) => {
         <a className="close__modal" onClick={closeModal}>
           <MdOutlineClose />
         </a>
-        {textos.map((item) => {
+        {textos.map((item, key) => {
           if (item.name === option) {
             return (
               <>
-                <span className="modal__card__texto logoFont">
+                <span key={key} className="modal__card__texto logoFont">
                   {item.texto}
                 </span>
               </>

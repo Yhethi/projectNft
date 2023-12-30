@@ -1,3 +1,7 @@
+v1.046
+- Console Fixes
+- Modal Open FIxed
+
 v1.045
 - Fondo al menu en mobile
 - Modal Añadido
