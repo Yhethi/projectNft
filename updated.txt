@@ -1,3 +1,6 @@
+v1.044
+- Cambiada la palabra action por "Manifiesto" en about del header
+
 v1.043
 - Logos de redes sociales eliminados del hero
 
