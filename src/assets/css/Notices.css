@@ -64,11 +64,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.notices__global .text {
+/* .notices__global .text {
   font-size: 1rem;
   color: #618adc;
   margin-bottom: -5px;
-}
+} */
 @media (max-width: 1476px) {
   .notices__global {
     position: relative;
@@ -102,10 +102,10 @@
     left: 0;
     white-space: nowrap;
   }
-  .notices__global .text {
+  /* .notices__global .text {
     width: 100%;
     font-size: 0.8rem;
     color: #618adc;
     margin-bottom: 0px;
-  }
+  } */
 }

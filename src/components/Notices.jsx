@@ -58,9 +58,9 @@ export const Notices = () => {
 
   return (
     <div className="notices__global">
-      <p className="text">
+      {/* <p className="text">
         POWERING TOOLS AND INTEGRATIONS FROM COMPANIES ALL AROUND THE WORLD
-      </p>
+      </p> */}
       <div className="notices__scrollable">
         {imgs.map((img, key) => {
           return (
