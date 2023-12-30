@@ -1,9 +1,15 @@
 import React, { useState } from "react";
-// import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
 import googleTr from "../assets/header/googleTr.png";
 import { ModalHome } from "./ModalHome";
+import {
+  FaTiktok,
+  FaInstagram,
+  FaTwitter,
+  FaDiscord,
+  FaYoutube,
+} from "react-icons/fa";
 
 export const Header = () => {
   const [option, setOption] = useState("");
@@ -50,7 +56,56 @@ export const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
-            <li className="nav-item dropdown">
+            <li class="nav-item">
+              <a
+                class="nav-link logoFont"
+                href="#"
+                onClick={() => {
+                  onHandleOption("quien");
+                  setLoader(true);
+                }}
+              >
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link logoFont"
+                href="#"
+                onClick={() => {
+                  onHandleOption("manifiesto");
+                  setLoader(true);
+                }}
+              >
+                Manifiesto
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <FaTiktok />
+              </a>
+            </li>{" "}
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <FaInstagram />
+              </a>
+            </li>{" "}
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <FaTwitter />
+              </a>
+            </li>{" "}
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <FaDiscord />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <FaYoutube />
+              </a>
+            </li>
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link"
                 href="#"
@@ -87,8 +142,8 @@ export const Header = () => {
                   QUIEN
                 </a>
               </div>
-            </li>
-            <li className="nav-item dropdown">
+            </li> */}
+            <li className="nav-item dropdown logoFont">
               <a
                 className="nav-link"
                 href="#"
@@ -133,7 +188,7 @@ export const Header = () => {
                 </a>
               </div>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link"
                 href="#"
@@ -162,8 +217,8 @@ export const Header = () => {
                   Youtube
                 </a>
               </div>
-            </li>
-            <li className="nav-item dropdown">
+            </li> */}
+            <li className="nav-item dropdown logoFont">
               <a
                 className="nav-link"
                 href="#"

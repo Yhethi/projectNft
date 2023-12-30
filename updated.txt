@@ -1,3 +1,8 @@
+v1.051
+- Header actualizado
+- Color del icono de sonido cambiado
+- Limpieza de varios archivos que no se usan
+
 v1.05
 - Audio añadido con boton animado
 - texto eliminado
