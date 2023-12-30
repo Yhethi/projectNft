@@ -73,7 +73,7 @@
   background: rgba(0, 0, 0, 1);
   transition-duration: 0.3s !important;
   animation: bounce 4s linear infinite;
-  text-align: center;
+  text-align: left;
   height: auto !important;
 }
 
@@ -121,13 +121,13 @@
     height: 50px;
   }
   .navbar-nav {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 1);
     padding: 20px 0px 0 20px;
     transform: translate(-15px, 10px);
     transition-duration: 0.3s;
   }
   .dropdown-menu {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 1);
     transform: translate(-15px, 10px);
     transition-duration: 0.3s !important;
     animation: none;

@@ -1,3 +1,9 @@
+v1.045
+- Fondo al menu en mobile
+- Modal Añadido
+- Header actualizado con nuevos items
+- Textos añadidos
+
 v1.044
 - Cambiada la palabra action por "Manifiesto" en about del header
 
