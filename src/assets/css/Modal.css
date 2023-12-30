@@ -89,6 +89,8 @@
     width: 90%;
     height: auto;
     text-align: center;
+    margin-top: 88px;
+    overflow-y: scroll;
   }
   .modal__card__texto {
     font-size: 0.8rem;
