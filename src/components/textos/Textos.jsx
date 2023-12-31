@@ -21,11 +21,14 @@ export const textos = [
     Juntos ascendemos, juntos creamos,
     Un mundo donde las posibilidades nunca se irán.
     Human Unleash, una sinfonía de esperanza,
-    Donde el espíritu humano siempre podrá brillar.**
-    `,
+    Donde el espíritu humano siempre podrá brillar.**`,
   },
   {
-    name: "quien",
-    texto: `QUIEN`,
+    name: "about",
+    texto: `
+    Creado por Human Labs con amor desde Málaga ES,
+    creamos arte digital a partir de las experiencias físicas
+    de la comunidad, conecta tu don y entra en El Universo
+    y muévete en la Dimensión`,
   },
 ];

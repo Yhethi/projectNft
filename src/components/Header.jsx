@@ -26,7 +26,7 @@ export const Header = () => {
       }
       setTimeout(() => {
         if (modal__global !== null) {
-          modal__global.style.background = "#00000033";
+          modal__global.style.background = "#000000AA";
         }
       }, 200);
     }, 100);
@@ -61,7 +61,7 @@ export const Header = () => {
                 class="nav-link logoFont"
                 href="#"
                 onClick={() => {
-                  onHandleOption("quien");
+                  onHandleOption("about");
                   setLoader(true);
                 }}
               >

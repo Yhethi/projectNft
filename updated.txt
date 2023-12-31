@@ -1,3 +1,7 @@
+v1.057
+- Cambio del texto en modal about
+- Backgroun modal mas oscuro
+
 v1.056
 - Fondo header deshabilitado
 - Compañias deshabilitadas
