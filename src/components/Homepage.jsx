@@ -43,8 +43,10 @@ export const Homepage = ({ PlaySound }) => {
         <div className="lettersAnimation">
           <section className="sectionHuman" data-identity="HUMAN UNLEASH">
             <blockquote className="d-flex">
-              <p style={{ marginRight: "7px" }}>HUMAN</p>
-              <p style={{ color: "#FFF" }}>UNLEASH</p>
+              <p className="d-flex">
+                HUMAN
+                <p style={{ color: "#FFF", marginLeft: "7px" }}>UNLEASH</p>
+              </p>
               <span></span>
             </blockquote>
           </section>
