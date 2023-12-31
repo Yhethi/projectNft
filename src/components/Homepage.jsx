@@ -7,7 +7,7 @@ import "../assets/scss/lettersAnimation.scss";
 
 export const Homepage = ({ PlaySound }) => {
   let index = 0;
-  let data = ["Human Unleash"];
+  let data = ["Unete al Universo"];
 
   let span = document.querySelector("span");
   let section = document.querySelector("section");
@@ -43,8 +43,9 @@ export const Homepage = ({ PlaySound }) => {
         <div className="lettersAnimation">
           <section className="sectionHuman" data-identity="HUMAN UNLEASH">
             <blockquote className="d-flex">
-              <p style={{ marginRight: "7px"}}>HUMAN</p>
-              <span>UNLEASH</span>
+              <p style={{ marginRight: "7px" }}>HUMAN</p>
+              <p style={{ color: "#FFF" }}>UNLEASH</p>
+              <span></span>
             </blockquote>
           </section>
           <div class="pen__lines-wrapper">

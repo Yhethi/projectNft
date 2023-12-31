@@ -1,4 +1,8 @@
-V1.064
+v1.065
+- Letras Animadas del inicio actualizadas con unete al universo
+- Modal solucionado
+
+v1.064
 - Letras Animadas del inicio actualizadas
 
 v1.063

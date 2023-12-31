@@ -37,9 +37,9 @@ export const Header = ({ audio }) => {
   return (
     <div className="header__global">
       {loader && (
-        <>
+        <div style={{ zIndex: "1" }}>
           <ModalHome option={option} setLoader={setLoader} />
-        </>
+        </div>
       )}
       <div className="logo">
         {/* <h1 className="logoFont">HUMAN UNLEASH</h1> */}
