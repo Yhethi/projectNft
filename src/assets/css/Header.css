@@ -14,8 +14,8 @@
 }
 
 .logo {
-  width: 195px;
-  height: 30px;
+  /* width: 195px;
+  height: 30px; */
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -23,8 +23,7 @@
 .logo img {
   position: relative;
   object-fit: cover;
-  width: 195px;
-  height: 30px;
+  width: 50px;
 }
 
 .logo h1 {

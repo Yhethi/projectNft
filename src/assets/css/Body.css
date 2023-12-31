@@ -7,7 +7,8 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-image: url("../body/FONDO.png");
+  /* background-image: url("../body/FONDO.png"); */
+  background: black;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;

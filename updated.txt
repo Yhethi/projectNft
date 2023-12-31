@@ -1,3 +1,10 @@
+v1.061
+- Boton universo actualizado
+- Nuevo logo añadido
+- Router DOM añadido
+- Nueva pantalla de universo
+- Musica totalmente funcional individualmente
+
 v1.06
 - Boton universo habilitado y con fondo
 

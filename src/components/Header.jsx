@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
 import googleTr from "../assets/header/googleTr.png";
@@ -10,8 +11,9 @@ import {
   FaDiscord,
   FaYoutube,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-export const Header = () => {
+export const Header = ({ PlaySound, setStopMusic }) => {
   const [option, setOption] = useState("");
   const [loader, setLoader] = useState(false);
 
@@ -40,7 +42,17 @@ export const Header = () => {
         </>
       )}
       <div className="logo">
-        <h1 className="logoFont">HUMAN UNLEASH</h1>
+        {/* <h1 className="logoFont">HUMAN UNLEASH</h1> */}
+        <Link to="/">
+          <img
+            src={logo}
+            alt={logo}
+            onClick={() => {
+              setStopMusic(true);
+              PlaySound();
+            }}
+          />
+        </Link>
       </div>
       <nav className="navbar navbar-expand-lg navbar-dark header__menu">
         <button
@@ -56,9 +68,9 @@ export const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link logoFont"
+                className="nav-link logoFont"
                 href="#"
                 onClick={() => {
                   onHandleOption("about");
@@ -68,9 +80,9 @@ export const Header = () => {
                 About
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link logoFont"
+                className="nav-link logoFont"
                 href="#"
                 onClick={() => {
                   onHandleOption("manifiesto");
@@ -80,7 +92,21 @@ export const Header = () => {
                 Manifiesto
               </a>
             </li>
-            <li className="nav-item dropdown logoFont">
+            <li
+              className="nav-item"
+              onClick={() => {
+                setStopMusic(true);
+                PlaySound();
+              }}
+            >
+              <Link
+                className="nav-link logoFont universoButton"
+                to={`/Universo`}
+              >
+                Universo
+              </Link>
+            </li>
+            {/* <li className="nav-item dropdown logoFont">
               <a
                 className="nav-link universoButton"
                 href="#"
@@ -124,30 +150,30 @@ export const Header = () => {
                   Harmonia
                 </a>
               </div>
-            </li>
+            </li> */}
             <div className="social__icons">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaTiktok />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaInstagram />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaTwitter />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaDiscord />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaYoutube />
                 </a>
               </li>
