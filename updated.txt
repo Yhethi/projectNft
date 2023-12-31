@@ -1,3 +1,6 @@
+v1.058
+- Texto a cursiva en los modales
+
 v1.057
 - Cambio del texto en modal about
 - Backgroun modal mas oscuro

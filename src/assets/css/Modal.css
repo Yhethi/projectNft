@@ -65,6 +65,7 @@
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap;
   z-index: 1;
+  font-style: italic;
 }
 
 .close__modal {
