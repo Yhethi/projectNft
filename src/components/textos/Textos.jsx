@@ -29,6 +29,6 @@ export const textos = [
     Creado por Human Labs con amor desde Málaga ES,
     creamos arte digital a partir de las experiencias físicas
     de la comunidad, conecta tu don y entra en El Universo
-    y muévete en la Dimensión`,
+    y muévete en la Dimensión...`,
   },
 ];

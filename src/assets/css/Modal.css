@@ -26,6 +26,14 @@
   animation: bounce 8s linear infinite;
 }
 
+@media (max-height: 732px) {
+  .modal__card {
+    overflow-y: scroll;
+    height: 90vh;
+    z-index: 23;
+  }
+}
+
 .modal__card::before {
   content: "";
   position: absolute;

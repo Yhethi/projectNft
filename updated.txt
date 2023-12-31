@@ -1,3 +1,9 @@
+v1.059
+- Texto about
+- Pequeños cambios en el modal
+- background arreglado
+- Overflow-y del body solucionado
+
 v1.058
 - Texto a cursiva en los modales
 
