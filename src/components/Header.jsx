@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-export const Header = ({ PlaySound, setStopMusic }) => {
+export const Header = ({ audio }) => {
   const [option, setOption] = useState("");
   const [loader, setLoader] = useState(false);
 
@@ -48,8 +48,7 @@ export const Header = ({ PlaySound, setStopMusic }) => {
             src={logo}
             alt={logo}
             onClick={() => {
-              setStopMusic(true);
-              PlaySound();
+              audio.pause();
             }}
           />
         </Link>
@@ -95,8 +94,7 @@ export const Header = ({ PlaySound, setStopMusic }) => {
             <li
               className="nav-item"
               onClick={() => {
-                setStopMusic(true);
-                PlaySound();
+                audio.pause();
               }}
             >
               <Link

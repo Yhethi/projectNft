@@ -20,7 +20,7 @@ export const UniverseApp = () => {
 
   return (
     <div className="global">
-      <Header PlaySound={PlaySound} setStopMusic={setStopMusic} />
+      <Header audio={audio} setStopMusic={setStopMusic} stopMusic={stopMusic} />
       <UniversePage PlaySound={PlaySound} />
     </div>
   );

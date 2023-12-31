@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="global">
-      <Header PlaySound={PlaySound} setStopMusic={setStopMusic} />
+      <Header audio={audio} setStopMusic={setStopMusic} stopMusic={stopMusic} />
       <Homepage PlaySound={PlaySound} />
     </div>
   );

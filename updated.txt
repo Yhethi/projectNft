@@ -1,3 +1,7 @@
+v1.062
+- Bug router arreglado
+- Bucle musica solucionado
+
 v1.061
 - Boton universo actualizado
 - Nuevo logo añadido
