@@ -6,12 +6,6 @@ import playButton from "../assets/body/playButton.png";
 import "../assets/scss/lettersAnimation.scss";
 
 export const Homepage = ({ PlaySound }) => {
-  let index = 0;
-  let data = ["Unete al Universo"];
-
-  let span = document.querySelector("span");
-  let section = document.querySelector("section");
-
   function init() {
     let txt = document.createTextNode(data[index]);
     section.dataset.identity = data[index];
@@ -19,16 +13,19 @@ export const Homepage = ({ PlaySound }) => {
     index++;
   }
   setTimeout(() => {
+    let index = 0;
+    let data = ["Unete al Universo"];
+    let span = document.querySelector("span");
+    let section = document.querySelector("section");
     init();
-  }, 100);
-
-  setInterval(function () {
-    let txt = document.createTextNode(data[index]);
-    section.dataset.identity = data[index];
-    span.innerText = txt.textContent;
-    index++;
-    index = index < data.length ? index++ : 0;
-  }, 4501);
+    setInterval(function () {
+      let txt = document.createTextNode(data[index]);
+      section.dataset.identity = data[index];
+      span.innerText = txt.textContent;
+      index++;
+      index = index < data.length ? index++ : 0;
+    }, 4501);
+  }, 500);
 
   return (
     <div className="body__global">
@@ -41,7 +38,7 @@ export const Homepage = ({ PlaySound }) => {
       <div className="body__wallpaper"></div>
       <div className="body__components">
         <div className="lettersAnimation">
-          <section className="sectionHuman" data-identity="HUMAN UNLEASH">
+          <section className="sectionHuman" data-identity="UNETE AL UNIVERSO">
             <blockquote className="d-flex">
               <p className="d-flex">
                 HUMAN
