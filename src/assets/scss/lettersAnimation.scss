@@ -10,8 +10,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  color: rgb(60, 60, 80);
-  //   font-family: "Montserrat";
+  color: #777;
   font-family: "Holtwood One SC", serif;
   font-family: "Kanit", sans-serif;
   font-weight: 800;
@@ -34,7 +33,7 @@
     content: attr(data-identity);
     color: #eaeaf2;
     z-index: -1;
-    animation: animLetterSpacing 4500ms infinite ease-in-out;
+    animation: animLetterSpacing 15000ms infinite ease-in-out;
   }
 }
 
@@ -56,12 +55,11 @@
 }
 
 .lettersAnimation span {
-  //   font-family: "Libre baskerville";
   font-family: "Holtwood One SC", serif;
   font-family: "Kanit", sans-serif;
   font-style: italic;
   display: inline-block;
-  color: #ff0333;
+  color: #fff;
 }
 
 @keyframes animLetterSpacing {

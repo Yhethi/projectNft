@@ -1,3 +1,6 @@
+V1.064
+- Letras Animadas del inicio actualizadas
+
 v1.063
 - Sass añadido
 - Animacion de letras al inicio de la pagina
