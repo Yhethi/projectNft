@@ -80,6 +80,51 @@ export const Header = () => {
                 Manifiesto
               </a>
             </li>
+            <li className="nav-item dropdown logoFont">
+              <a
+                className="nav-link universoButton"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Universo
+                <FaChevronDown className="dropIcon" />
+              </a>
+              <div
+                className="dropdown-menu logoFont"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a className="dropdown-item" href="#">
+                  Aetheria
+                </a>
+                <a className="dropdown-item" href="#">
+                  Celestis
+                </a>
+                <a className="dropdown-item" href="#">
+                  Temporalis
+                </a>
+                <a className="dropdown-item" href="#">
+                  Spectra
+                </a>
+                <a className="dropdown-item" href="#">
+                  Etherium
+                </a>
+                <a className="dropdown-item" href="#">
+                  Arcanum
+                </a>
+                <a className="dropdown-item" href="#">
+                  Infinitum
+                </a>
+                <a className="dropdown-item" href="#">
+                  Obscura
+                </a>
+                <a className="dropdown-item" href="#">
+                  Harmonia
+                </a>
+              </div>
+            </li>
             <div className="social__icons">
               <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -145,51 +190,7 @@ export const Header = () => {
                 </a>
               </div>
             </li> */}
-            {/* <li className="nav-item dropdown logoFont">
-              <a
-                className="nav-link"
-                href="#"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Universo
-                <FaChevronDown className="dropIcon" />
-              </a>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a className="dropdown-item" href="#">
-                  Aetheria
-                </a>
-                <a className="dropdown-item" href="#">
-                  Celestis
-                </a>
-                <a className="dropdown-item" href="#">
-                  Temporalis
-                </a>
-                <a className="dropdown-item" href="#">
-                  Spectra
-                </a>
-                <a className="dropdown-item" href="#">
-                  Etherium
-                </a>
-                <a className="dropdown-item" href="#">
-                  Arcanum
-                </a>
-                <a className="dropdown-item" href="#">
-                  Infinitum
-                </a>
-                <a className="dropdown-item" href="#">
-                  Obscura
-                </a>
-                <a className="dropdown-item" href="#">
-                  Harmonia
-                </a>
-              </div>
-            </li> */}
+
             {/* <li className="nav-item dropdown">
               <a
                 className="nav-link"

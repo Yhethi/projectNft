@@ -110,6 +110,10 @@
 .social__icons {
   display: flex;
 }
+.universoButton {
+  background: rgb(50, 50, 50);
+  border-radius: 10px 5px 10px 5px;
+}
 
 @media (max-width: 991px) {
   .header__menu {
