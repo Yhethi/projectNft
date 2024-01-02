@@ -1,3 +1,7 @@
+v1.075
+- Texto en modal actualizados
+- Nueva funcion para que se pueda leer bien "Unete al Nexo"
+
 v1.074
 - Cambiado el texto del modal en universo
 - Palabra "Universo" a "El Nexo" en el header
