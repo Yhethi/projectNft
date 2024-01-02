@@ -50,9 +50,6 @@ export const Homepage = ({ PlaySound }) => {
     body__texto.addEventListener("click", () => {
       body__texto.style.scale = "0";
     });
-    setTimeout(() => {
-      body__texto.style.scale = "0";
-    }, 20000);
   }, []);
 
   return (
@@ -77,8 +74,7 @@ export const Homepage = ({ PlaySound }) => {
         <div className="lettersAnimation">
           <section className="sectionHuman" data-identity="UNETE AL NEXO">
             <h1>
-              UNETE A
-              <span style={{ whiteSpace: "nowrap" }}>AL NEXO</span>
+              UNETE A<span style={{ whiteSpace: "nowrap" }}>AL NEXO</span>
             </h1>
             <blockquote className="d-flex">
               <div className="d-flex">
