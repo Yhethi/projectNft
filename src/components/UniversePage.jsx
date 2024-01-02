@@ -17,14 +17,14 @@ export const UniversePage = ({ PlaySound }) => {
   const itemsRef = useRef();
 
   useEffect(() => {
-    const wallpapers = document.querySelector(".universes__wallpaper");
-    wallpapers.addEventListener("wheel", (event) => {
-      event.preventDefault();
-      console.log(event.deltaY);
-      wallpapers.scrollBy({
-        left: event.deltaY < 0 ? -30 : 30,
-      });
-    });
+    // const wallpapers = document.querySelector(".universes__wallpaper");
+    // wallpapers.addEventListener("wheel", (event) => {
+    //   event.preventDefault();
+    //   console.log(event.deltaY);
+    //   wallpapers.scrollBy({
+    //     left: event.deltaY < 0 ? -30 : 30,
+    //   });
+    // });
   }, []);
 
   return (

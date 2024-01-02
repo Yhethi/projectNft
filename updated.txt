@@ -1,3 +1,6 @@
+v1.07
+- Universo con scroll en Y en las imagenes
+
 v1.069
 - Imagenes optimizadas en universo
 
