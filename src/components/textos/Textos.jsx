@@ -34,12 +34,21 @@ export const textos = [
   {
     name: "universe",
     texto: `
-    Prueba de texto en Universo\n
-    Prueba de texto en Universo\n
-    Prueba de texto en Universo\n
-    Prueba de texto en Universo\n
-    Prueba de texto en Universo\n
-    Prueba de texto en Universo\n
-    Prueba de texto en Universo\n`,
+Human Unleash es un concepto revolucionario.
+Una entidad dinámica que evoluciona con sus participantes.
+Un catalizador en el reino virtual, impulsado por sus miembros.\n
+Es una serie de 9999 avatares únicos, cada uno otorgando acceso
+a ENCOS. La aventura comienza con experiencias digitales inmersivas,
+objetos virtuales exclusivos, encuentros interactivos en línea y en vivo,
+y se despliega continuamente con asombro. Ser parte de Human Unleash
+significa contribuir a una nueva forma de narrativa digital interactiva, una
+experiencia que el las personas recién están empezando a descubrir.\n
+Tu avatar en Human Unleash es más que una presencia digital; es una
+declaración de tu papel en la configuración de este nuevo mundo.\n
+ENCO es un espacio digital único donde la creatividad, la colaboración
+y la cultura digital convergen para encender la innovación. Aquí, la frontera
+entre la realidad y el mundo virtual se desvanece, ofreciendo un terreno
+de juego donde la imaginación remodela el futuro.
+    `,
   },
 ];

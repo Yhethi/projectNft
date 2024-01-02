@@ -1,3 +1,5 @@
+v1.072
+
 v1.071
 - Al iniciar un modal aparece en universo
 - Indice del modal solucionado
