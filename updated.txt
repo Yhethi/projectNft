@@ -1,3 +1,6 @@
+v1.068
+- Modulo universo fondo modificado con scroll en X
+
 v1.067
 - Letras animadas en mobile arreladas
 - Parallax homepage

@@ -7,10 +7,30 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-image: url("../body/FONDO.png");
+  background-image: url("../universos/1_Aetheria.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+.universes__wallpaper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  transition-duration: 0.3s;
+}
+
+.universes__wallpaper img {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
 .universe__components {

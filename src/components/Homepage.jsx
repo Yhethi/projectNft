@@ -32,15 +32,14 @@ export const Homepage = ({ PlaySound }) => {
     const backVideo = document.querySelector(".backVideo");
     const totalX = ((backVideo.clientWidth - event.pageX) * 0.2) / 50;
     const totalY = ((backVideo.clientHeight - event.pageY) * -1) / 50;
-    console.log(event.pageY);
     backVideo.style.transform = `translate(${totalX}px,${totalY}px)`;
   };
 
-  window.addEventListener("mousemove", mousemove);
+  // window.addEventListener("mousemove", mousemove);
 
   return (
     <div className="body__global">
-      <div className="body__video">
+      {/* <div className="body__video">
         <video
           className="backVideo"
           src={videoHome}
@@ -48,7 +47,7 @@ export const Homepage = ({ PlaySound }) => {
           loop
           muted
         ></video>
-      </div>
+      </div> */}
       <img
         className="playButton"
         src={playButton}
