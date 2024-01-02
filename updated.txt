@@ -1,6 +1,7 @@
 v1.076
 - Texto en homepage
 - Fixed cambio de texto en letras animadas
+- Ajustado a mobile
 
 v1.075
 - Texto en modal actualizados

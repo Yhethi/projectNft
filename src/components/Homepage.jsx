@@ -77,7 +77,7 @@ export const Homepage = ({ PlaySound }) => {
         <div className="lettersAnimation">
           <section className="sectionHuman" data-identity="UNETE AL NEXO">
             <h1>
-              UNETE
+              UNETE A
               <span style={{ whiteSpace: "nowrap" }}>AL NEXO</span>
             </h1>
             <blockquote className="d-flex">
