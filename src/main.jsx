@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/Universo" element={<UniverseApp />} />
+        <Route path="/ElNexo" element={<UniverseApp />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -102,10 +102,7 @@ export const Header = ({ audio, section }) => {
                 audio.pause();
               }}
             >
-              <Link
-                className="nav-link logoFont universoButton"
-                to={`/Universo`}
-              >
+              <Link className="nav-link logoFont universoButton" to={`/ElNexo`}>
                 El Nexo
               </Link>
             </li>
