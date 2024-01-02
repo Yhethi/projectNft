@@ -1,3 +1,7 @@
+v1.066
+- Video adaptado al screen y menu mobile actualizado
+- Letras animadas adaptadas al mobile
+
 v1.065
 - Letras Animadas del inicio actualizadas con unete al universo
 - Modal solucionado

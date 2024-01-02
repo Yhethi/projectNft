@@ -4,6 +4,7 @@ import { Hero } from "./Hero";
 import { Notices } from "./Notices";
 import playButton from "../assets/body/playButton.png";
 import "../assets/scss/lettersAnimation.scss";
+import videoHome from "../assets/body/Aetheria1.mp4";
 
 export const Homepage = ({ PlaySound }) => {
   function init() {
@@ -29,13 +30,16 @@ export const Homepage = ({ PlaySound }) => {
 
   return (
     <div className="body__global">
+      <div className="body__video">
+        <video src={videoHome} autoplay loop></video>
+      </div>
       <img
         className="playButton"
         src={playButton}
         alt={playButton}
         onClick={PlaySound}
       />
-      <div className="body__wallpaper"></div>
+      {/* <div className="body__wallpaper"></div> */}
       <div className="body__components">
         <div className="lettersAnimation">
           <section className="sectionHuman" data-identity="UNETE AL UNIVERSO">
