@@ -5,6 +5,7 @@ import { Notices } from "./Notices";
 import playButton from "../assets/body/playButton.png";
 import "../assets/scss/lettersAnimation.scss";
 import videoHome from "../assets/body/Aetheria1.mp4";
+import { textos } from "./textos/Textos";
 
 export const Homepage = ({ PlaySound }) => {
   function init() {
@@ -41,6 +42,19 @@ export const Homepage = ({ PlaySound }) => {
 
   // window.addEventListener("mousemove", mousemove);
 
+  useEffect(() => {
+    const body__texto = document.querySelector(".body__texto");
+    // setTimeout(() => {
+    //   body__texto.style.scale = "1";
+    // }, 100);
+    body__texto.addEventListener("click", () => {
+      body__texto.style.scale = "0";
+    });
+    setTimeout(() => {
+      body__texto.style.scale = "0";
+    }, 20000);
+  }, []);
+
   return (
     <div className="body__global">
       {/* <div className="body__video">
@@ -63,8 +77,8 @@ export const Homepage = ({ PlaySound }) => {
         <div className="lettersAnimation">
           <section className="sectionHuman" data-identity="UNETE AL NEXO">
             <h1>
-              <span style={{ whiteSpace: "nowrap" }}>UNETE AL</span>
-              NEXO
+              UNETE
+              <span style={{ whiteSpace: "nowrap" }}>AL NEXO</span>
             </h1>
             <blockquote className="d-flex">
               <div className="d-flex">
@@ -86,6 +100,9 @@ export const Homepage = ({ PlaySound }) => {
             <div className="pen__line"></div>
             <div className="pen__line"></div>
           </div>
+        </div>
+        <div className="body__texto">
+          <h1 className="body__letters">{textos[2].texto}</h1>
         </div>
         {/* <Hero /> */}
       </div>

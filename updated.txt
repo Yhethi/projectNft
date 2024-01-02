@@ -1,3 +1,7 @@
+v1.076
+- Texto en homepage
+- Fixed cambio de texto en letras animadas
+
 v1.075
 - Texto en modal actualizados
 - Nueva funcion para que se pueda leer bien "Unete al Nexo"

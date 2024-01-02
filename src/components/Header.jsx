@@ -97,8 +97,6 @@ export const Header = ({ audio, section }) => {
             <li
               className="nav-item universe__button"
               onClick={() => {
-                onHandleOption("universe");
-                setLoader(true);
                 audio.pause();
               }}
             >

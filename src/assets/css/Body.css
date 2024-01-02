@@ -147,3 +147,39 @@ body {
 .playButton:hover {
   scale: 1.1;
 }
+.body__texto {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.932);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.body__letters {
+  text-align: justify;
+  position: relative;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  z-index: 1;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: white;
+}
+
+@media (max-width: 732px) {
+  .body__letters {
+    text-align: justify;
+    position: relative;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    z-index: 1;
+    font-style: italic;
+    font-size: 0.8rem;
+    color: white;
+  }
+}
