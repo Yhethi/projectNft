@@ -40,7 +40,7 @@ export const textos = [
     Son 9999 avatares, cada uno una llave única,
     Abriendo puertas a El Nexo, una experiencia que fascina.
     Comienza con digitalizados mundos, inmersivos y reales,
-    Objetos virtuales exclusivos y encuentros digitales.\n
+    Objetos virtuales exclusivos, encuentros en vivo y digitales.\n
     Y esto es solo el inicio, hay más por descubrir,
     Contribuyendo a una narrativa digital, un nuevo modo de vivir.
     Tu avatar en Human Unleash, no es solo una figura,
