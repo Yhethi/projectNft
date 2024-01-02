@@ -1,4 +1,8 @@
-V1.073
+v1.074
+- Cambiado el texto del modal en universo
+- Palabra "Universo" a "El Nexo" en el header
+
+v1.073
 - logs erros fixes
 
 v1.072

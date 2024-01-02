@@ -106,7 +106,7 @@ export const Header = ({ audio, section }) => {
                 className="nav-link logoFont universoButton"
                 to={`/Universo`}
               >
-                Universo
+                El Nexo
               </Link>
             </li>
             <div className="social__icons">

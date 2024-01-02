@@ -34,21 +34,26 @@ export const textos = [
   {
     name: "universe",
     texto: `
-Human Unleash es un concepto revolucionario.
-Una entidad dinámica que evoluciona con sus participantes.
-Un catalizador en el reino virtual, impulsado por sus miembros.\n
-Es una serie de 9999 avatares únicos, cada uno otorgando acceso
-a ENCOS. La aventura comienza con experiencias digitales inmersivas,
-objetos virtuales exclusivos, encuentros interactivos en línea y en vivo,
-y se despliega continuamente con asombro. Ser parte de Human Unleash
-significa contribuir a una nueva forma de narrativa digital interactiva, una
-experiencia que el las personas recién están empezando a descubrir.\n
-Tu avatar en Human Unleash es más que una presencia digital; es una
-declaración de tu papel en la configuración de este nuevo mundo.\n
-ENCO es un espacio digital único donde la creatividad, la colaboración
-y la cultura digital convergen para encender la innovación. Aquí, la frontera
-entre la realidad y el mundo virtual se desvanece, ofreciendo un terreno
-de juego donde la imaginación remodela el futuro.
+    Human Unleash, una visión sin igual,
+    Una entidad que con el usuario va a evolucionar.
+    Un pilar en el mundo virtual, por la comunidad impulsado,
+    Donde cada miembro activamente está involucrado.\n
+    Son 9999 avatares, cada uno una llave única,
+    Abriendo puertas a El Nexo, una experiencia que fascina.
+    Comienza con digitalizados mundos, inmersivos y reales,
+    Objetos virtuales exclusivos y encuentros digitales.\n
+    Y esto es solo el inicio, hay más por descubrir,
+    Contribuyendo a una narrativa digital, un nuevo modo de vivir.
+    Tu avatar en Human Unleash, no es solo una figura,
+    Es tu voz en este mundo nuevo, una aventura futura.\n
+    El Nexo, un espacio donde la imaginación es la ley,
+    Donde la creatividad y cultura digital se entrelazan con armonía.
+    Aquí, lo real y lo virtual se entremezclan sin temor,
+    Un campo de juego innovador, donde reina el creador.\n
+    En el metaverso, un nuevo día se asoma,
+    Donde Human Unleash y El Nexo dictan la norma.
+    En este universo virtual, sin límites ni fronteras,
+    Se unen sueños y realidades, en maneras verdaderas.
     `,
   },
 ];
