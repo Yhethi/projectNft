@@ -1,3 +1,6 @@
+v1.069
+- Imagenes optimizadas en universo
+
 v1.068
 - Modulo universo fondo modificado con scroll en X
 
