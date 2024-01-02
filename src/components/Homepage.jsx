@@ -72,9 +72,10 @@ export const Homepage = ({ PlaySound }) => {
       {/* <div className="body__wallpaper"></div> */}
       <div className="body__components">
         <div className="lettersAnimation">
-          <section className="sectionHuman" data-identity="UNETE AL NEXO">
+          <section className="sectionHuman" data-identity="UNETE AL EL NEXO">
             <h1>
-              UNETE A<span style={{ whiteSpace: "nowrap" }}>EL NEXO</span>
+              <span style={{ whiteSpace: "nowrap" }}>UNETE A</span>
+              <span style={{ whiteSpace: "nowrap" }}>EL NEXO</span>
             </h1>
             <blockquote className="d-flex">
               <div className="d-flex">
