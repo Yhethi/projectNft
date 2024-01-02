@@ -1,3 +1,7 @@
+v1.067
+- Letras animadas en mobile arreladas
+- Parallax homepage
+
 v1.066
 - Video adaptado al screen y menu mobile actualizado
 - Letras animadas adaptadas al mobile

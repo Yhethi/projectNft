@@ -28,10 +28,26 @@ export const Homepage = ({ PlaySound }) => {
     }, 4501);
   }, 500);
 
+  const mousemove = (event) => {
+    const backVideo = document.querySelector(".backVideo");
+    const totalX = ((backVideo.clientWidth - event.pageX) * 0.2) / 50;
+    const totalY = ((backVideo.clientHeight - event.pageY) * -1) / 50;
+    console.log(event.pageY);
+    backVideo.style.transform = `translate(${totalX}px,${totalY}px)`;
+  };
+
+  window.addEventListener("mousemove", mousemove);
+
   return (
     <div className="body__global">
       <div className="body__video">
-        <video src={videoHome} autoplay loop></video>
+        <video
+          className="backVideo"
+          src={videoHome}
+          autoPlay
+          loop
+          muted
+        ></video>
       </div>
       <img
         className="playButton"
@@ -51,17 +67,17 @@ export const Homepage = ({ PlaySound }) => {
               <span></span>
             </blockquote>
           </section>
-          <div class="pen__lines-wrapper">
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
-            <div class="pen__line"></div>
+          <div className="pen__lines-wrapper">
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
+            <div className="pen__line"></div>
           </div>
         </div>
         {/* <Hero /> */}

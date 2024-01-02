@@ -9,8 +9,8 @@ body {
   height: 100vh;
   top: 0;
   left: 0;
-  display: grid;
-  place-content: center;
+  display: flex;
+  align-items: center;
 }
 .body__video video {
   width: 100vw;
@@ -19,7 +19,7 @@ body {
 @media (max-width: 1024px) {
   .body__video video {
     width: 100vw;
-    transform: translateY(-110px);
+    transform: translateY(-0px);
   }
 }
 
@@ -27,6 +27,7 @@ body {
   .body__video video {
     width: 1100px;
     animation: seeAllImage 60s linear infinite;
+    object-fit: contain;
   }
 }
 @keyframes seeAllImage {
