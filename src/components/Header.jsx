@@ -73,7 +73,6 @@ export const Header = ({ audio, section }) => {
             <li className="nav-item">
               <a
                 className="nav-link logoFont"
-                href="#"
                 onClick={() => {
                   onHandleOption("about");
                   setLoader(true);
@@ -85,7 +84,6 @@ export const Header = ({ audio, section }) => {
             <li className="nav-item">
               <a
                 className="nav-link logoFont"
-                href="#"
                 onClick={() => {
                   onHandleOption("manifiesto");
                   setLoader(true);

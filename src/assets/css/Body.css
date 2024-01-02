@@ -153,7 +153,7 @@ body {
   display: grid;
   place-content: center;
   position: absolute;
-  background: rgba(0, 0, 0, 0.932);
+  background: rgba(0, 0, 0, 0.9);
   transition-duration: 0.3s;
   cursor: pointer;
 }

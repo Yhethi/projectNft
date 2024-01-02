@@ -12,6 +12,7 @@ import ARCANUM from "../assets/universos/6_ARCANUM.png";
 import INFINITUM from "../assets/universos/7_INFINITUM.png";
 import OBSCURA from "../assets/universos/8_OBSCURA.png";
 import HARMONIA from "../assets/universos/9_HARMONIA.png";
+import { textos } from "./textos/Textos";
 
 export const UniversePage = ({ PlaySound }) => {
   const itemsRef = useRef();
@@ -25,9 +26,6 @@ export const UniversePage = ({ PlaySound }) => {
     //     left: event.deltaY < 0 ? -30 : 30,
     //   });
     // });
-
-
-    
   }, []);
 
   return (
@@ -40,6 +38,9 @@ export const UniversePage = ({ PlaySound }) => {
       />
       {/* <div className="universe__wallpaper"></div> */}
       <div className="universes__wallpaper">
+        <div className="universe__texto">
+          <h1 className="universe__letters">{textos[2].texto}</h1>
+        </div>
         <div className="universe__container__wallpaper">
           <img src={Aetheria} alt={Aetheria} />
         </div>

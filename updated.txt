@@ -1,3 +1,7 @@
+v1.077
+- Pagina negra con letras blancas al inicio de El Nexo
+- Hashtags eliminados al dar click a al boton para abrir un modal
+
 v1.076
 - Texto en homepage
 - Fixed cambio de texto en letras animadas
