@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/header/logo.png";
 import "../assets/css/Header.css";
 import { FaChevronDown } from "react-icons/fa";
@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-export const Header = ({ audio }) => {
+export const Header = ({ audio, section }) => {
   const [option, setOption] = useState("");
   const [loader, setLoader] = useState(false);
 
@@ -33,6 +33,13 @@ export const Header = ({ audio }) => {
       }, 200);
     }, 100);
   };
+
+  useEffect(() => {
+    if (section === "universe") {
+      const universe__button = document.querySelector(".universe__button");
+      universe__button.click();
+    }
+  }, []);
 
   return (
     <div className="header__global">
@@ -88,8 +95,10 @@ export const Header = ({ audio }) => {
               </a>
             </li>
             <li
-              className="nav-item"
+              className="nav-item universe__button"
               onClick={() => {
+                onHandleOption("universe");
+                setLoader(true);
                 audio.pause();
               }}
             >
@@ -100,51 +109,6 @@ export const Header = ({ audio }) => {
                 Universo
               </Link>
             </li>
-            {/* <li className="nav-item dropdown logoFont">
-              <a
-                className="nav-link universoButton"
-                href="#"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Universo
-                <FaChevronDown className="dropIcon" />
-              </a>
-              <div
-                className="dropdown-menu logoFont"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a className="dropdown-item" href="#">
-                  Aetheria
-                </a>
-                <a className="dropdown-item" href="#">
-                  Celestis
-                </a>
-                <a className="dropdown-item" href="#">
-                  Temporalis
-                </a>
-                <a className="dropdown-item" href="#">
-                  Spectra
-                </a>
-                <a className="dropdown-item" href="#">
-                  Etherium
-                </a>
-                <a className="dropdown-item" href="#">
-                  Arcanum
-                </a>
-                <a className="dropdown-item" href="#">
-                  Infinitum
-                </a>
-                <a className="dropdown-item" href="#">
-                  Obscura
-                </a>
-                <a className="dropdown-item" href="#">
-                  Harmonia
-                </a>
-              </div>
-            </li> */}
             <div className="social__icons">
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -172,75 +136,6 @@ export const Header = ({ audio }) => {
                 </a>
               </li>
             </div>
-            {/* <li className="nav-item dropdown">
-              <a
-                className="nav-link"
-                href="#"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                About
-                <FaChevronDown className="dropIcon" />
-              </a>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a
-                  className="dropdown-item"
-                  href="#"
-                  onClick={() => {
-                    onHandleOption("manifiesto");
-                    setLoader(true);
-                  }}
-                >
-                  MANIFIESTO
-                </a>
-                <a
-                  className="dropdown-item"
-                  href="#"
-                  onClick={() => {
-                    onHandleOption("quien");
-                    setLoader(true);
-                  }}
-                >
-                  QUIEN
-                </a>
-              </div>
-            </li> */}
-
-            {/* <li className="nav-item dropdown">
-              <a
-                className="nav-link"
-                href="#"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Comunidad
-                <FaChevronDown className="dropIcon" />
-              </a>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a className="dropdown-item comunidad__item" href="#">
-                  Twitter
-                </a>
-                <a className="dropdown-item comunidad__item" href="#">
-                  Telegram
-                </a>
-                <a className="dropdown-item comunidad__item" href="#">
-                  Discord
-                </a>
-                <a className="dropdown-item comunidad__item" href="#">
-                  Youtube
-                </a>
-              </div>
-            </li> */}
             <li className="nav-item dropdown logoFont">
               <a
                 className="nav-link"

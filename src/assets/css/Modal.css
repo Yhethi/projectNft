@@ -9,6 +9,7 @@
   scale: 0;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 .modal__card {

@@ -31,4 +31,15 @@ export const textos = [
     de la comunidad, conecta tu don y entra en El Universo
     y muévete en la Dimensión...`,
   },
+  {
+    name: "universe",
+    texto: `
+    Prueba de texto en Universo\n
+    Prueba de texto en Universo\n
+    Prueba de texto en Universo\n
+    Prueba de texto en Universo\n
+    Prueba de texto en Universo\n
+    Prueba de texto en Universo\n
+    Prueba de texto en Universo\n`,
+  },
 ];

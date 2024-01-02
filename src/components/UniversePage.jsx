@@ -25,6 +25,9 @@ export const UniversePage = ({ PlaySound }) => {
     //     left: event.deltaY < 0 ? -30 : 30,
     //   });
     // });
+
+
+    
   }, []);
 
   return (
