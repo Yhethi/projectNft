@@ -1,4 +1,9 @@
+V1.073
+- logs erros fixes
+
 v1.072
+- Modal universo con texto nuevo
+- Human unleash letters animation homepage updated
 
 v1.071
 - Al iniciar un modal aparece en universo

@@ -46,7 +46,7 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -63.5%);
+      transform: translate(-50%, -62%);
       font-size: 1.2em;
       letter-spacing: 0.5em;
       content: attr(data-identity);
@@ -54,6 +54,21 @@
       z-index: -1;
       animation: animLetterSpacing 15000ms infinite ease-in-out;
     }
+  }
+  .lettersAnimation {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #777;
+    font-family: "Holtwood One SC", serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    overflow: hidden;
   }
 }
 
