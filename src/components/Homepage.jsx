@@ -42,15 +42,15 @@ export const Homepage = ({ PlaySound }) => {
 
   // window.addEventListener("mousemove", mousemove);
 
-  useEffect(() => {
-    const body__texto = document.querySelector(".body__texto");
-    // setTimeout(() => {
-    //   body__texto.style.scale = "1";
-    // }, 100);
-    body__texto.addEventListener("click", () => {
-      body__texto.style.scale = "0";
-    });
-  }, []);
+  // useEffect(() => {
+  //   const body__texto = document.querySelector(".body__texto");
+  //   // setTimeout(() => {
+  //   //   body__texto.style.scale = "1";
+  //   // }, 100);
+  //   body__texto.addEventListener("click", () => {
+  //     body__texto.style.scale = "0";
+  //   });
+  // }, []);
 
   return (
     <div className="body__global">
@@ -97,9 +97,9 @@ export const Homepage = ({ PlaySound }) => {
             <div className="pen__line"></div>
           </div>
         </div>
-        <div className="body__texto">
+        {/* <div className="body__texto">
           <h1 className="body__letters">{textos[2].texto}</h1>
-        </div>
+        </div> */}
         {/* <Hero /> */}
       </div>
     </div>
