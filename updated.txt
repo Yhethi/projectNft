@@ -1,3 +1,8 @@
+v1.083
+- Fondo mas claro
+- Letras mas pequeña
+- Botones en Header sin fondo
+
 v1.082
 - Boton de MetaMask en connect
 - Texto Modal sobre la imagen de fondo en El Nexo

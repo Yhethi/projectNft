@@ -142,12 +142,12 @@ export const Header = ({ audio, section }) => {
               </Link>
             </li>
             <li
-              className="nav-item universe__button"
+              className="nav-item"
               // onClick={() => {
               //   audio.pause();
               // }}
             >
-              <Link className="nav-link logoFont universoButton" to={`#`}>
+              <Link className="nav-link logoFont" to={`#`}>
                 Colección
               </Link>
             </li>
@@ -202,9 +202,9 @@ export const Header = ({ audio, section }) => {
                 </a>
               </div>
             </li>
-            <li className="nav-item universe__button">
+            <li className="nav-item">
               <a
-                className="nav-link logoFont universoButton"
+                className="nav-link logoFont"
                 onClick={() => {
                   onHandleOptionConnect();
                   setLoader(true);
