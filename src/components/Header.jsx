@@ -102,6 +102,16 @@ export const Header = ({ audio, section }) => {
                 El Nexo
               </Link>
             </li>
+            <li
+              className="nav-item universe__button"
+              // onClick={() => {
+              //   audio.pause();
+              // }}
+            >
+              <Link className="nav-link logoFont universoButton" to={`#`}>
+                Colección
+              </Link>
+            </li>
             <div className="social__icons">
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -145,10 +155,10 @@ export const Header = ({ audio, section }) => {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item language" href="#">
                   <p>Spanish</p>
                 </a>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item language" href="#">
                   <p>English</p>
                 </a>
               </div>

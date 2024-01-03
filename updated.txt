@@ -1,3 +1,6 @@
+v1.08
+- header items actualizados
+
 v1.079
 - Solo se ha dejado la ultima imagen en El Neno
 
