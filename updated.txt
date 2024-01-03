@@ -1,3 +1,6 @@
+v1.081
+- Boton connect añadido al header
+
 v1.08
 - header items actualizados
 

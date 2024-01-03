@@ -163,6 +163,17 @@ export const Header = ({ audio, section }) => {
                 </a>
               </div>
             </li>
+            <li className="nav-item universe__button">
+              <a
+                className="nav-link logoFont universoButton"
+                // onClick={() => {
+                //   onHandleOption("manifiesto");
+                //   setLoader(true);
+                // }}
+              >
+                Connect
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
