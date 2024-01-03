@@ -80,7 +80,7 @@ export const Header = ({ audio, section }) => {
             target="_blank"
             // style={{ textDecoration: "none" }}
           >
-            Meta Mask
+            MetaMask
           </a>
         </div>
       </div>
