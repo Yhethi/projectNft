@@ -1,3 +1,6 @@
+v1.079
+- Solo se ha dejado la ultima imagen en El Neno
+
 v1.078
 - Texto en el mensaje de la seccion "El Nexo" cambiado en sus estilos
 

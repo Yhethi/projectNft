@@ -41,7 +41,7 @@ export const UniversePage = ({ PlaySound }) => {
         <div className="universe__texto">
           <h1 className="universe__letters">{textos[2].texto}</h1>
         </div>
-        <div className="universe__container__wallpaper">
+        {/* <div className="universe__container__wallpaper">
           <img src={Aetheria} alt={Aetheria} />
         </div>
         <div className="universe__container__wallpaper">
@@ -64,7 +64,7 @@ export const UniversePage = ({ PlaySound }) => {
         </div>
         <div className="universe__container__wallpaper">
           <img src={OBSCURA} alt={OBSCURA} />
-        </div>
+        </div> */}
         <div className="universe__container__wallpaper">
           <img src={HARMONIA} alt={HARMONIA} />
         </div>
