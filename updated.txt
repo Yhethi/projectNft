@@ -1,3 +1,7 @@
+v1.082
+- Boton de MetaMask en connect
+- Texto Modal sobre la imagen de fondo en El Nexo
+
 v1.081
 - Boton connect añadido al header
 

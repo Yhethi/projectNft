@@ -28,6 +28,13 @@ export const UniversePage = ({ PlaySound }) => {
     // });
   }, []);
 
+  useEffect(() => {
+    const universe__texto = document.querySelector(".universe__texto");
+    universe__texto.addEventListener("click", () => {
+      universe__texto.style.scale = "0";
+    });
+  }, []);
+
   return (
     <div className="universe__global">
       <img
@@ -38,9 +45,9 @@ export const UniversePage = ({ PlaySound }) => {
       />
       {/* <div className="universe__wallpaper"></div> */}
       <div className="universes__wallpaper">
-        <div className="universe__texto">
+        {/* <div className="universe__texto">
           <h1 className="universe__letters">{textos[2].texto}</h1>
-        </div>
+        </div> */}
         {/* <div className="universe__container__wallpaper">
           <img src={Aetheria} alt={Aetheria} />
         </div>
@@ -68,6 +75,9 @@ export const UniversePage = ({ PlaySound }) => {
         <div className="universe__container__wallpaper">
           <img src={HARMONIA} alt={HARMONIA} />
         </div>
+      </div>
+      <div className="universe__texto">
+        <h1 className="universe__letters">{textos[2].texto}</h1>
       </div>
       <div className="universe__components">
         <Hero />

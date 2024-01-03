@@ -147,7 +147,7 @@ body {
 .playButton:hover {
   scale: 1.1;
 }
-.body__texto {
+/* .body__texto {
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -182,4 +182,4 @@ body {
     font-size: 0.8rem;
     color: white;
   }
-}
+} */

@@ -171,3 +171,161 @@
     justify-content: space-around;
   }
 }
+
+/* Modal Connect */
+
+.connectModal {
+  position: fixed;
+  background: transparent;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  scale: 0;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.61);
+}
+
+.connect__card {
+  width: 647px;
+  height: auto;
+  padding: 40px 20px 40px 20px;
+  background: black;
+  border-radius: 25px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  max-height: 680px;
+  animation: bounce 4s linear infinite;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.connect__card {
+  transition-duration: 0.3s;
+}
+
+.connect__card::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    rgba(0, 255, 170, 0.568),
+    rgba(128, 0, 128, 0.514)
+  );
+  width: 100px;
+  height: 110vh;
+  top: -150px;
+  left: 46%;
+  animation: rotateBar 40s linear infinite;
+}
+
+.connect__card::after {
+  content: "";
+  position: absolute;
+  background: black;
+  inset: 5px;
+  border-radius: 25px;
+  max-height: 680px;
+}
+
+@keyframes rotateBar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.modalConnect__card__texto {
+  width: 90%;
+  padding: 10px;
+  background: black;
+  border: 2px solid white;
+  text-align: justify;
+  position: relative;
+  z-index: 1;
+  font-style: italic;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+.connect__card a:hover {
+  transition-duration: 0.3s;
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  background: rgb(12, 12, 12);
+}
+
+.close__modalConnect {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  font-size: 28px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.close__modalConnect:hover {
+  scale: 1.1;
+}
+
+@media (max-width: 732px) {
+  .connectModal {
+    z-index: 1;
+  }
+  .connect__card {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+    padding: 40px 0 0 0px;
+    left: 0;
+    top: 0;
+  }
+
+  .connect__card::after {
+    white-space: pre-wrap;
+  }
+
+  .connect__card::after {
+    content: "";
+    position: absolute;
+    height: auto;
+    background: black;
+    inset: 5px;
+    border-radius: 25px;
+    overflow-y: scroll;
+    /* max-height: 680px; */
+  }
+
+  .modalConnect__card__texto {
+    font-size: 0.8rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 531px) {
+  .modalConnect__card__texto {
+    font-size: 2rem;
+  }
+}
+
+/* @media (max-width: 489px) {
+  .modalConnect__card__texto {
+    font-size: 0.6rem;
+  }
+} */

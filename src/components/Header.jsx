@@ -12,6 +12,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { MdOutlineClose } from "react-icons/md";
 
 export const Header = ({ audio, section }) => {
   const [option, setOption] = useState("");
@@ -41,11 +42,49 @@ export const Header = ({ audio, section }) => {
     }
   }, []);
 
+  const closeModalConnect = () => {
+    const connectModal = document.querySelector(".connectModal");
+    connectModal.style.background = "transparent";
+    setTimeout(() => {
+      connectModal.style.scale = "0";
+    }, 200);
+  };
+
+  const onHandleOptionConnect = () => {
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    navbarCollapse.classList.remove("show");
+    setTimeout(() => {
+      const modal__global = document.querySelector(".connectModal");
+      if (modal__global !== null) {
+        modal__global.style.scale = "1";
+      }
+      setTimeout(() => {
+        if (modal__global !== null) {
+          modal__global.style.background = "#000000AA";
+        }
+      }, 200);
+    }, 100);
+  };
+
   return (
     <div className="header__global">
       {loader && <ModalHome option={option} setLoader={setLoader} />}
+      <div className="connectModal">
+        <div className="connect__card">
+          <a className="close__modalConnect" onClick={closeModalConnect}>
+            <MdOutlineClose />
+          </a>
+          <a
+            className="modalConnect__card__texto logoFont"
+            href="https://metamask.io/download/"
+            target="_blank"
+            // style={{ textDecoration: "none" }}
+          >
+            Meta Mask
+          </a>
+        </div>
+      </div>
       <div className="logo">
-        {/* <h1 className="logoFont">HUMAN UNLEASH</h1> */}
         <Link to="/">
           <img
             src={logo}
@@ -166,10 +205,10 @@ export const Header = ({ audio, section }) => {
             <li className="nav-item universe__button">
               <a
                 className="nav-link logoFont universoButton"
-                // onClick={() => {
-                //   onHandleOption("manifiesto");
-                //   setLoader(true);
-                // }}
+                onClick={() => {
+                  onHandleOptionConnect();
+                  setLoader(true);
+                }}
               >
                 Connect
               </a>
