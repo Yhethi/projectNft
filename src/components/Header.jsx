@@ -151,6 +151,16 @@ export const Header = ({ audio, section }) => {
                 Colección
               </Link>
             </li>
+            <li
+              className="nav-item"
+              // onClick={() => {
+              //   audio.pause();
+              // }}
+            >
+              <Link className="nav-link logoFont" to={`#`}>
+                Eventos
+              </Link>
+            </li>
             <div className="social__icons">
               <li className="nav-item">
                 <a className="nav-link" href="#">

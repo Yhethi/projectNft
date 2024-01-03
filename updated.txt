@@ -1,3 +1,6 @@
+v1.084
+- Boton Eventos añadido en el header
+
 v1.083
 - Fondo mas claro
 - Letras mas pequeña
