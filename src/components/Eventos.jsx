@@ -22,10 +22,10 @@ export const Eventos = ({ PlaySound }) => {
           </>
         )}
         <div className="eventos__botones logoFont">
-          <Link to="">PARTNER WITH US</Link>
-          <Link to="">REGISTER</Link>
-          <Link to="">APPLY TO SPEAK</Link>
-          <Link to="">SPEAKERS</Link>
+          <Link to="">Asóciate</Link>
+          <Link to="">Obtén tu Ticket</Link>
+          {/* <Link to="">APPLY TO SPEAK</Link>
+          <Link to="">SPEAKERS</Link> */}
         </div>
       </div>
     </>

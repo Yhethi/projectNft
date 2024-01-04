@@ -1,3 +1,7 @@
+v1.087
+- Carousel actualizado con flechas y scroll
+- Botones cambiados en eventos
+
 v1.086
 - Nuevas imagenes en carousel
 

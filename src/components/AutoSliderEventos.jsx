@@ -19,98 +19,34 @@ import DUBAI from "../assets/eventos/7_DUBAI.jpg";
 import "../assets/scss/Carousel.scss";
 
 export const AutoSliderEventos = () => {
-  const [images, setImages] = useState([
-    {
-      name: "Aetheria",
-      src: Aetheria,
-    },
-    {
-      name: "Celestis",
-      src: Celestis,
-    },
-    {
-      name: "Temporalis",
-      src: Temporalis,
-    },
-    {
-      name: "Spectra",
-      src: Spectra,
-    },
-    {
-      name: "Etherium",
-      src: Etherium,
-    },
-    {
-      name: "ARCANUM",
-      src: ARCANUM,
-    },
-    {
-      name: "INFINITUM",
-      src: INFINITUM,
-    },
-    {
-      name: "OBSCURA",
-      src: OBSCURA,
-    },
-    {
-      name: "HARMONIA",
-      src: HARMONIA,
-    },
-  ]);
+
+  function checkScrollDirection(event, tabButtons) {
+    
+    console.log(tabButtons);
+
+    if (checkScrollDirectionIsUp(event)) {
+      tabButtons[1].click();
+    } else {
+      tabButtons[0].click();
+    }
+  }
+
+  function checkScrollDirectionIsUp(event) {
+    if (event.wheelDelta) {
+      return event.wheelDelta > 0;
+    }
+    return event.deltaY < 0;
+  }
 
   useEffect(() => {
-    // const carousel_control_next = document.querySelector(
-    //   ".carousel-control-next"
-    // );
-    // const carousel_control_prev = document.querySelector(
-    //   ".carousel-control-prev"
-    // );
-    // setTimeout(() => {
-    //   carousel_control_next.click();
-    // }, 3000);
-    // const carousel = document.querySelector(".carousel");
-    // setTimeout(() => {
-    //   carousel_control_next.click();
-    // }, 1000);
+    const tabButtons = document.querySelectorAll(".tapButtons");
+    carouselExampleInterval.addEventListener("wheel", (e) => {
+      checkScrollDirection(e, tabButtons);
+    });
   }, []);
 
   return (
     <div className="autoSlider__global">
-      {/* <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-interval="3000"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img className="d-block w-100" src={Málaga1} alt="Málaga" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={Malaga2} alt="Málaga" />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src={BUENOS_AIRES}
-              alt="Buenos Aires"
-            />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={TULUM} alt="Tulum" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={TULUM1} alt="Tulum" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={SINGAPOU} alt="Singapour" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={DUBAI} alt="Dubai" />
-          </div>
-        </div>
-      </div> */}
-
       <div
         id="carouselExampleInterval"
         className="carousel slide"
