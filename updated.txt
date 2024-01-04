@@ -1,3 +1,6 @@
+v1.086
+- Nuevas imagenes en carousel
+
 v1.085
 - Nueva pagina Eventos
 

@@ -8,6 +8,15 @@ import ARCANUM from "../assets/universos/6_ARCANUM.png";
 import INFINITUM from "../assets/universos/7_INFINITUM.png";
 import OBSCURA from "../assets/universos/8_OBSCURA.png";
 import HARMONIA from "../assets/universos/9_HARMONIA.png";
+import Málaga1 from "../assets/eventos/1_Málaga1.jpg";
+import Malaga2 from "../assets/eventos/2_Malaga2.jpg";
+import BUENOS_AIRES from "../assets/eventos/3_BUENOSAIRES.jpg";
+import TULUM from "../assets/eventos/4_TULUM.jpg";
+import TULUM1 from "../assets/eventos/5_TULUM1.jpg";
+import SINGAPOU from "../assets/eventos/6_SINGAPOUR.jpg";
+import DUBAI from "../assets/eventos/7_DUBAI.jpg";
+
+import "../assets/scss/Carousel.scss";
 
 export const AutoSliderEventos = () => {
   const [images, setImages] = useState([
@@ -49,54 +58,87 @@ export const AutoSliderEventos = () => {
     },
   ]);
 
-  // const onHandleChanger = () => {
-  //   const imageChanger = document.getElementById("imageChanger");
-  //   images.forEach((img, key) => {
-  //     setTimeout(() => {
-  //       if (flagSlider === true) {
-  //         imageChanger.src = img.src;
-  //         console.log("paso", key, images.length - 1);
-  //         if (parseInt(key) == parseInt(images.length - 1)) {
-  //           //   setTimeout(() => {
-  //           //     onHandleChanger();
-  //           //   }, parseInt(2000));
-  //         }
-  //       }
-  //     }, parseInt(2000 * key));
-  //   });
-  // };
-
-  // useEffect(() => {
-  //   const timeOut = setTimeout(onHandleChanger, 100);
-  // }, []);
-
   useEffect(() => {
-    const carousel_control_next = document.querySelector(
-      ".carousel-control-next"
-    );
+    // const carousel_control_next = document.querySelector(
+    //   ".carousel-control-next"
+    // );
+    // setTimeout(() => {
+    //   carousel_control_next.click();
+    // }, 3000);
+    const carousel = document.querySelector(".carousel");
     setTimeout(() => {
       carousel_control_next.click();
-    }, 3000);
-    // onHandleChanger();
+    }, 1000);
   }, []);
 
   return (
     <div className="autoSlider__global">
-      {/* <img id="imageChanger" src={images[0].src} alt={images[0].name} /> */}
       <div
-        id="carouselExampleInterval"
+        id="carouselExampleSlidesOnly"
         className="carousel slide"
         data-bs-ride="carousel"
+        data-bs-interval="3000"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src={Aetheria} alt="Aetheria" />
+            <img className="d-block w-100" src={Málaga1} alt="Málaga" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={Celestis} alt="Celestis" />
+            <img className="d-block w-100" src={Malaga2} alt="Málaga" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={Temporalis} alt="Temporalis" />
+            <img
+              className="d-block w-100"
+              src={BUENOS_AIRES}
+              alt="Buenos Aires"
+            />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={TULUM} alt="Tulum" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={TULUM1} alt="Tulum" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={SINGAPOU} alt="Singapour" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={DUBAI} alt="Dubai" />
+          </div>
+        </div>
+      </div>
+
+      {/* <div
+        id="carouselExampleInterval"
+        className="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block w-100" src={Málaga1} alt="Málaga" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={Malaga2} alt="Málaga" />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="d-block w-100"
+              src={BUENOS_AIRES}
+              alt="Buenos Aires"
+            />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={TULUM} alt="Tulum" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={TULUM1} alt="Tulum" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={SINGAPOU} alt="Singapour" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={DUBAI} alt="Dubai" />
           </div>
         </div>
         <button
@@ -123,7 +165,7 @@ export const AutoSliderEventos = () => {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
