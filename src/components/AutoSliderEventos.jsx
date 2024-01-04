@@ -59,21 +59,21 @@ export const AutoSliderEventos = () => {
   ]);
 
   useEffect(() => {
-    // const carousel_control_next = document.querySelector(
-    //   ".carousel-control-next"
-    // );
-    // setTimeout(() => {
-    //   carousel_control_next.click();
-    // }, 3000);
-    const carousel = document.querySelector(".carousel");
+    const carousel_control_next = document.querySelector(
+      ".carousel-control-next"
+    );
     setTimeout(() => {
       carousel_control_next.click();
-    }, 1000);
+    }, 3000);
+    // const carousel = document.querySelector(".carousel");
+    // setTimeout(() => {
+    //   carousel_control_next.click();
+    // }, 1000);
   }, []);
 
   return (
     <div className="autoSlider__global">
-      <div
+      {/* <div
         id="carouselExampleSlidesOnly"
         className="carousel slide"
         data-bs-ride="carousel"
@@ -106,9 +106,9 @@ export const AutoSliderEventos = () => {
             <img className="d-block w-100" src={DUBAI} alt="Dubai" />
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* <div
+      <div
         id="carouselExampleInterval"
         className="carousel slide"
         data-bs-ride="carousel"
@@ -165,7 +165,7 @@ export const AutoSliderEventos = () => {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div> */}
+      </div>
     </div>
   );
 };
