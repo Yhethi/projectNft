@@ -74,23 +74,19 @@ export const AutoSliderEventos = () => {
     const carousel_control_next = document.querySelector(
       ".carousel-control-next"
     );
-    const resetUrl = document.querySelector(".resetUrl");
-    setInterval(() => {
+    setTimeout(() => {
       carousel_control_next.click();
-      resetUrl.click();
     }, 3000);
     // onHandleChanger();
   }, []);
 
   return (
     <div className="autoSlider__global">
-      <a href="#" className="resetUrl"></a>
       {/* <img id="imageChanger" src={images[0].src} alt={images[0].name} /> */}
       <div
-        id="carouselExampleControls"
+        id="carouselExampleInterval"
         className="carousel slide"
-        data-ride="carousel"
-        data-interval="3000"
+        data-bs-ride="carousel"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -102,39 +98,31 @@ export const AutoSliderEventos = () => {
           <div className="carousel-item">
             <img className="d-block w-100" src={Temporalis} alt="Temporalis" />
           </div>
-          {/* {images.map((item, key) => {
-            console.log(item);
-            return (
-              <div className="carousel-item">
-                <img className="d-block w-100" src={item.src} alt={item.name} />
-              </div>
-            );
-          })} */}
         </div>
-        <a
-          className="carousel-control-prev tapButtons"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
         >
           <span
             className="carousel-control-prev-icon"
             aria-hidden="true"
           ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next tapButtons"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
         >
           <span
             className="carousel-control-next-icon"
             aria-hidden="true"
           ></span>
-          <span className="sr-only">Next</span>
-        </a>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );
