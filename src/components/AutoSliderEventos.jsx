@@ -100,7 +100,7 @@ export const AutoSliderEventos = () => {
           </div>
         </div>
         <button
-          className="carousel-control-prev"
+          className="carousel-control-prev tapButtons"
           type="button"
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="prev"
@@ -112,7 +112,7 @@ export const AutoSliderEventos = () => {
           <span className="visually-hidden">Previous</span>
         </button>
         <button
-          className="carousel-control-next"
+          className="carousel-control-next tapButtons"
           type="button"
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="next"
