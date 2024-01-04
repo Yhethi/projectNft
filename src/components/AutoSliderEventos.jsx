@@ -59,15 +59,15 @@ export const AutoSliderEventos = () => {
   ]);
 
   useEffect(() => {
-    const carousel_control_next = document.querySelector(
-      ".carousel-control-next"
-    );
-    const carousel_control_prev = document.querySelector(
-      ".carousel-control-prev"
-    );
-    setTimeout(() => {
-      carousel_control_next.click();
-    }, 3000);
+    // const carousel_control_next = document.querySelector(
+    //   ".carousel-control-next"
+    // );
+    // const carousel_control_prev = document.querySelector(
+    //   ".carousel-control-prev"
+    // );
+    // setTimeout(() => {
+    //   carousel_control_next.click();
+    // }, 3000);
     // const carousel = document.querySelector(".carousel");
     // setTimeout(() => {
     //   carousel_control_next.click();
