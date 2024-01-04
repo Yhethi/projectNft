@@ -49,33 +49,42 @@ export const AutoSliderEventos = () => {
     },
   ]);
 
-  const onHandleChanger = () => {
-    const imageChanger = document.getElementById("imageChanger");
-    images.forEach((img, key) => {
-      setTimeout(() => {
-        imageChanger.src = img.src;
-        console.log("paso", key, images.length - 1);
-        if (parseInt(key) == parseInt(images.length - 1)) {
-          setTimeout(() => {
-            onHandleChanger();
-          }, parseInt(2000));
-        }
-      }, parseInt(2000 * key));
-    });
-  };
+  // const onHandleChanger = () => {
+  //   const imageChanger = document.getElementById("imageChanger");
+  //   images.forEach((img, key) => {
+  //     setTimeout(() => {
+  //       if (flagSlider === true) {
+  //         imageChanger.src = img.src;
+  //         console.log("paso", key, images.length - 1);
+  //         if (parseInt(key) == parseInt(images.length - 1)) {
+  //           //   setTimeout(() => {
+  //           //     onHandleChanger();
+  //           //   }, parseInt(2000));
+  //         }
+  //       }
+  //     }, parseInt(2000 * key));
+  //   });
+  // };
+
+  // useEffect(() => {
+  //   const timeOut = setTimeout(onHandleChanger, 100);
+  // }, []);
 
   useEffect(() => {
     const carousel_control_next = document.querySelector(
       ".carousel-control-next"
     );
+    const resetUrl = document.querySelector(".resetUrl");
     setInterval(() => {
       carousel_control_next.click();
+      resetUrl.click();
     }, 3000);
     // onHandleChanger();
   }, []);
 
   return (
     <div className="autoSlider__global">
+      <a href="#" className="resetUrl"></a>
       {/* <img id="imageChanger" src={images[0].src} alt={images[0].name} /> */}
       <div
         id="carouselExampleControls"
