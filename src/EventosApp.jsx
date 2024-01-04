@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import { UniversePage } from "./components/UniversePage";
 import { Header } from "./components/Header";
 import backgroundSound from "./assets/mp3/universo/backgroundSound.mp3";
+import { Eventos } from "./components/Eventos";
 
 const audio = new Audio(backgroundSound);
 
-export const UniverseApp = () => {
+export const EventosApp = () => {
   const [stopMusic, setStopMusic] = useState(false);
-
   const PlaySound = () => {
     if (!stopMusic) {
       audio.play();
@@ -26,7 +25,7 @@ export const UniverseApp = () => {
         stopMusic={stopMusic}
         section="universe"
       />
-      <UniversePage PlaySound={PlaySound} />
+      <Eventos PlaySound={PlaySound} />
     </div>
   );
 };

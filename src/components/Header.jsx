@@ -157,7 +157,7 @@ export const Header = ({ audio, section }) => {
               //   audio.pause();
               // }}
             >
-              <Link className="nav-link logoFont" to={`#`}>
+              <Link className="nav-link logoFont" to={`/Eventos`}>
                 Eventos
               </Link>
             </li>

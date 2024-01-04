@@ -1,3 +1,6 @@
+v1.085
+- Nueva pagina Eventos
+
 v1.084
 - Boton Eventos añadido en el header
 
