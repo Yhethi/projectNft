@@ -120,7 +120,7 @@ export const Header = ({ audio, section }) => {
                 About
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 className="nav-link logoFont"
                 onClick={() => {
@@ -130,7 +130,7 @@ export const Header = ({ audio, section }) => {
               >
                 Manifiesto
               </a>
-            </li>
+            </li> */}
             <li
               className="nav-item universe__button"
               onClick={() => {
