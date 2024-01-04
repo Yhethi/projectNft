@@ -122,7 +122,7 @@ export const AutoSliderEventos = () => {
             <img className="d-block w-100" src={Málaga1} alt="Málaga" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={Malaga2} alt="Málaga" />
+            <img className="d-block w-100" src={Malaga2} alt="Málagaa" />
           </div>
           <div className="carousel-item">
             <img
@@ -135,7 +135,7 @@ export const AutoSliderEventos = () => {
             <img className="d-block w-100" src={TULUM} alt="Tulum" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={TULUM1} alt="Tulum" />
+            <img className="d-block w-100" src={TULUM1} alt="Tulum1" />
           </div>
           <div className="carousel-item">
             <img className="d-block w-100" src={SINGAPOU} alt="Singapour" />
